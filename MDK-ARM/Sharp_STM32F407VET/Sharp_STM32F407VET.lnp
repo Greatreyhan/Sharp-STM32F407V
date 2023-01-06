@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"sharp_stm32f407vet\startup_stm32f407xx.o"
+"sharp_stm32f407vet\main.o"
+"sharp_stm32f407vet\stm32f4xx_it.o"
+"sharp_stm32f407vet\stm32f4xx_hal_msp.o"
+"sharp_stm32f407vet\stm32f4xx_hal_adc.o"
+"sharp_stm32f407vet\stm32f4xx_hal_adc_ex.o"
+"sharp_stm32f407vet\stm32f4xx_ll_adc.o"
+"sharp_stm32f407vet\stm32f4xx_hal_rcc.o"
+"sharp_stm32f407vet\stm32f4xx_hal_rcc_ex.o"
+"sharp_stm32f407vet\stm32f4xx_hal_flash.o"
+"sharp_stm32f407vet\stm32f4xx_hal_flash_ex.o"
+"sharp_stm32f407vet\stm32f4xx_hal_flash_ramfunc.o"
+"sharp_stm32f407vet\stm32f4xx_hal_gpio.o"
+"sharp_stm32f407vet\stm32f4xx_hal_dma_ex.o"
+"sharp_stm32f407vet\stm32f4xx_hal_dma.o"
+"sharp_stm32f407vet\stm32f4xx_hal_pwr.o"
+"sharp_stm32f407vet\stm32f4xx_hal_pwr_ex.o"
+"sharp_stm32f407vet\stm32f4xx_hal_cortex.o"
+"sharp_stm32f407vet\stm32f4xx_hal.o"
+"sharp_stm32f407vet\stm32f4xx_hal_exti.o"
+"sharp_stm32f407vet\stm32f4xx_hal_tim.o"
+"sharp_stm32f407vet\stm32f4xx_hal_tim_ex.o"
+"sharp_stm32f407vet\system_stm32f4xx.o"
+--strict --scatter "Sharp_STM32F407VET\Sharp_STM32F407VET.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Sharp_STM32F407VET.map" -o Sharp_STM32F407VET\Sharp_STM32F407VET.axf
